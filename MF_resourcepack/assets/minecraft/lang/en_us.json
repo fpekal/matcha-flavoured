@@ -1154,11 +1154,11 @@
   "subtitles.kleispack.fishing.2_star": "Caught a §a⭐⭐§8☆☆§r fish",
   "subtitles.kleispack.fishing.3_star": "Caught a §b⭐⭐⭐§8☆§r fish",
   "subtitles.kleispack.fishing.4_star": "Caught a §d⭐⭐⭐⭐§r fish",
-  "subtitles.kleispack.fishing.junk": "Caught a junk",
-  "subtitles.kleispack.fishing.treasure": "Caught a treasure",
-  "subtitles.kleispack.fishing.axolotl": "Caught an axolotl",
-  "subtitles.kleispack.fishing.fish_bones": "Caught fish bones",
-  "subtitles.kleispack.fishing.enchanted_book": "Caught a Hell-Bound Book",
-  "subtitles.kleispack.fishing.nautilus_shell": "Caught a nautilus shell",
-  "subtitles.kleispack.fishing.frog": "Caught a frog"
+  "subtitles.kleispack.fishing.junk": "Caught a §7junk§r",
+  "subtitles.kleispack.fishing.treasure": "Caught a §6treasure§r",
+  "subtitles.kleispack.fishing.axolotl": "Caught an §daxolotl§r",
+  "subtitles.kleispack.fishing.fish_bones": "Caught §ffish bones§r",
+  "subtitles.kleispack.fishing.enchanted_book": "Caught a §cHell-Bound Book§r",
+  "subtitles.kleispack.fishing.nautilus_shell": "Caught a §bnautilus shell§r",
+  "subtitles.kleispack.fishing.frog": "Caught a §2frog§r"
 }
