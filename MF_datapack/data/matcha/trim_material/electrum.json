@@ -1,10 +1,7 @@
 {
-	"asset_name": "electrum",
+	"palette_id": "electrum",
 	"description": {
 		"translate": "trim_material.kleispack.electrum",
 		"color": "#ebe3a1"
-	},
-  "override_armor_assets": {
-    "matcha:electrum": "electrum_darker"
-  }
+	}
 }
