@@ -1,5 +1,18 @@
 {
   "attributes": {
+    "minecraft:gameplay/natural_mob_spawns": {
+      "spawns_by_category": {
+        "ambient": [],
+        "axolotls": [],
+        "creature": [],
+        "misc": [],
+        "monster": [],
+        "underground_water_creature": [],
+        "water_ambient": [],
+        "water_creature": []
+      },
+      "spawn_costs": {}
+    },
     "minecraft:audio/background_music": {
       "default": {
         "max_delay": 24000,
@@ -21,13 +34,8 @@
   "features": [
     [],
     [],
-    [
-      "minecraft:amethyst_geode"
-    ],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
+    ["minecraft:amethyst_geode"],
+    ["minecraft:monster_room", "minecraft:monster_room_deep"],
     [],
     [],
     [
@@ -63,10 +71,7 @@
       "minecraft:ore_emerald",
       "matcha:ore_emerald_deep_mountain"
     ],
-    [
-      "minecraft:sculk_vein",
-      "minecraft:sculk_patch_deep_dark"
-    ],
+    ["minecraft:sculk_vein", "minecraft:sculk_patch_deep_dark"],
     [],
     [
       "minecraft:glow_lichen",
@@ -78,21 +83,8 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_pumpkin"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    ["minecraft:freeze_top_layer"]
   ],
   "has_precipitation": true,
-  "spawn_costs": {},
-  "spawners": {
-    "ambient": [],
-    "axolotls": [],
-    "creature": [],
-    "misc": [],
-    "monster": [],
-    "underground_water_creature": [],
-    "water_ambient": [],
-    "water_creature": []
-  },
   "temperature": 0.8
 }
