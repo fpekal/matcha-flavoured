@@ -13,10 +13,9 @@ execute as @a[tag=SummonedTrader] run scoreboard players add @s wandering_trader
 #If the time is less than 15min, add 10 seconds (a value of 1)
 execute as @e[type=marker,tag=beacon_kindling] if score @s wandering_trader_timer_score < 15min wandering_trader_timer_score run scoreboard players add @s wandering_trader_timer_score 1
 
-# If the time on any of them is less than 15min, Restart the loop in 10 seconds
+# If the time on any of them OR any player is less than 15min, Restart the loop in 10 seconds
 execute as @e[type=marker,tag=beacon_kindling] if score @s wandering_trader_timer_score <= 15min wandering_trader_timer_score run schedule function matcha:mechanics/wandering_trader/check_wandering_trader_timer_loop 10s
+execute as @a if score @s wandering_trader_timer_score <= 15min wandering_trader_timer_score run schedule function matcha:mechanics/wandering_trader/check_wandering_trader_timer_loop 10s
 
-# If there are no active beacons, kill all summoned traders and reset players (just in case)
-execute unless entity @e[type=marker,tag=beacon_kindling] run kill @e[type=minecraft:wandering_trader,tag=summoned_by_beacon]
-execute unless entity @e[type=marker,tag=beacon_kindling] run scoreboard players reset @a wandering_trader_timer_score
-execute unless entity @e[type=marker,tag=beacon_kindling] run tag @a remove SummonedTrader
+# If there are no active beacons, OR players waiting for it, kill all summoned traders and reset players (just in case)
+execute unless entity @e[type=marker,tag=beacon_kindling] unless entity @a[scores={wandering_trader_timer_score=..90}] run function matcha:mechanics/wandering_trader/no_beacons_reset
