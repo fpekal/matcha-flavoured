@@ -23,5 +23,3 @@ scoreboard players set @a electrum_armour 0
 scoreboard players set @a adamant_armour 0
 scoreboard players set @a warding_equipment 0
 scoreboard players set @a shakudo_regen 0
-#Bool0s, a ticking funtion runs every tick to remove the scores HERE, something like this
-scoreboard players set @a traversal 0
