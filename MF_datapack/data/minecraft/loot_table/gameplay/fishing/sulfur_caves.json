@@ -12,7 +12,7 @@
 					"modifier": {
 						"type": "minecraft:set_components",
 						"components": {
-							"minecraft:item_model": "fish_bones",
+							"minecraft:item_model": "matcha:fish_bones",
 							"minecraft:item_name": {
 								"translate": "item.kleispack.fish.fish_bones"
 							}
