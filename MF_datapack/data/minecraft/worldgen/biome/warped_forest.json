@@ -1,5 +1,43 @@
 {
   "attributes": {
+    "minecraft:gameplay/natural_mob_spawns": {
+      "spawns_by_category": {
+        "ambient": [],
+        "axolotls": [],
+        "creature": [
+          {
+            "type": "minecraft:strider",
+            "count": {
+              "type": "uniform",
+              "max_inclusive": 2,
+              "min_inclusive": 1
+            },
+            "weight": 60
+          }
+        ],
+        "misc": [],
+        "monster": [
+          {
+            "type": "minecraft:enderman",
+            "count": {
+              "type": "uniform",
+              "max_inclusive": 4,
+              "min_inclusive": 4
+            },
+            "weight": 1
+          }
+        ],
+        "underground_water_creature": [],
+        "water_ambient": [],
+        "water_creature": []
+      },
+      "spawn_costs": {
+        "minecraft:enderman": {
+          "charge": 1.0,
+          "energy_budget": 0.12
+        }
+      }
+    },
     "minecraft:audio/ambient_sounds": {
       "additions": {
         "sound": "minecraft:ambient.warped_forest.additions",
@@ -69,35 +107,5 @@
     ]
   ],
   "has_precipitation": false,
-  "spawn_costs": {
-    "minecraft:enderman": {
-      "charge": 1.0,
-      "energy_budget": 0.12
-    }
-  },
-  "spawners": {
-    "ambient": [],
-    "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:strider",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 60
-      }
-    ],
-    "misc": [],
-    "monster": [
-      {
-        "type": "minecraft:enderman",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 1
-      }
-    ],
-    "underground_water_creature": [],
-    "water_ambient": [],
-    "water_creature": []
-  },
   "temperature": 2.0
 }
