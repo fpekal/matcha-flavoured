@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"interacted_using_seeds": {
+			"trigger": "minecraft:player_interacted_with_entity",
+			"conditions": {
+				"item": {
+					"items": "#chicken_food"
+				},
+				"entity": {
+					"type": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"minecraft:entity_type": "minecraft:chicken"
+					}
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "matcha:environmental/chicken/forbid_breeding"
+	}
+}
