@@ -1,0 +1,158 @@
+{
+	"elements": [
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/plains/tree_1",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/plains/tree_2",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/plains/tree_3",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/plains/tree_4",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/plains/log_1",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/plains/log_2",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/plains/bush_1",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/plains/bush_2",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		},
+		{
+			"element": {
+				"element_type": "minecraft:legacy_single_pool_element",
+				"location": "matcha:chicken_roosts/plains/bush_3",
+				"processors": {
+					"processors": [
+						{
+							"processor_type": "minecraft:gravity",
+							"heightmap": "MOTION_BLOCKING",
+							"offset": -3
+						}
+					]
+				},
+				"projection": "rigid"
+			},
+			"weight": 1
+		}
+	],
+	"fallback": "minecraft:empty"
+}
