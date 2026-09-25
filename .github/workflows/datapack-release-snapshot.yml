@@ -105,7 +105,7 @@ jobs:
 
       - name: Filter by errors
         if: ${{ !cancelled() }}
-        run: grep -E '\[.*\/ERROR\]' snapshot-server.log
+        run: grep -E '\[.*\/ERROR\]' snapshot-server.log || echo No errors!
 
       - name: Upload server logs
         if: ${{ !cancelled() }}
