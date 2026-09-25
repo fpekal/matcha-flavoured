@@ -1,4 +1,5 @@
 {
+	"parent": "matcha:imm_revoke",
 	"criteria": {
 		"bone": {
 			"trigger": "minecraft:fishing_rod_hooked",

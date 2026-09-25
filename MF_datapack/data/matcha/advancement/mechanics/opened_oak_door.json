@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:recipes/root",
+	"parent": "matcha:imm_revoke",
 	"criteria": {
 		"opened_door": {
 			"trigger": "minecraft:any_block_use",

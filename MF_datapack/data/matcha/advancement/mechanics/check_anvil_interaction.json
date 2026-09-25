@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:recipes/root",
+	"parent": "matcha:imm_revoke",
 	"criteria": {
 		"inventory_changed": {
 			"trigger": "minecraft:inventory_changed",

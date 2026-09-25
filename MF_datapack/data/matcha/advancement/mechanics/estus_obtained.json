@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:mechanics/root",
+	"parent": "matcha:imm_revoke",
 	"criteria": {
 		"has_estus": {
 			"trigger": "minecraft:inventory_changed",

@@ -1,4 +1,5 @@
 {
+	"parent": "matcha:imm_revoke",
 	"criteria": {
 		"on_sulfur": {
 			"conditions": {

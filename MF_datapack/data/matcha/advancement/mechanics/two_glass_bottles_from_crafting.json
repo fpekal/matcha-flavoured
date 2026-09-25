@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:recipes/root",
+	"parent": "matcha:imm_revoke",
 	"criteria": {
 		"uncooked_green_curry": {
 			"trigger": "minecraft:recipe_crafted",

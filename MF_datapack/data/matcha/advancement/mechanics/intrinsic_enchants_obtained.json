@@ -1,5 +1,5 @@
 {
-	"parent": "matcha:mechanics/root",
+	"parent": "matcha:imm_revoke",
 	"criteria": {
 		"obtained_intrinsic_enchants_item": {
 			"trigger": "minecraft:inventory_changed",

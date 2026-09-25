@@ -1,4 +1,5 @@
 {
+	"parent": "matcha:imm_revoke",
 	"criteria": {
 		"nautilus_shell": {
 			"trigger": "minecraft:fishing_rod_hooked",

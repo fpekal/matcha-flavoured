@@ -1,4 +1,5 @@
 {
+	"parent": "matcha:imm_revoke",
 	"criteria": {
 		"used_item": {
 			"conditions": {

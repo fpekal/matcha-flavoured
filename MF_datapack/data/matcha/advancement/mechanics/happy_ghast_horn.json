@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:recipes/root",
+	"parent": "matcha:imm_revoke",
 	"criteria": {
 		"used_horn": {
 			"trigger": "minecraft:using_item",

@@ -1,4 +1,5 @@
 {
+	"parent": "matcha:imm_revoke",
 	"criteria": {
 		"painted_moray": {
 			"trigger": "minecraft:fishing_rod_hooked",

@@ -1,4 +1,5 @@
 {
+	"parent": "matcha:imm_revoke",
 	"criteria": {
 		"alaska_blackfish": {
 			"trigger": "minecraft:fishing_rod_hooked",
